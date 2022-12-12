@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        tr:nth-child(even){
+        background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <!--
+    Tabela
+    
+    <table> <table> -> Tag principal que define a tabela 
+    
+    dentro da tela trabalhamos na construcao focada em linhas e 
+    dentro das linhas as colunas
+    
+    <tr> </tr> define uma linha dentro da tabela
+    e para cada linha existem colunas 
+    <td><td>
+    
+    -->
+    <!--Uma tabela com 3 linhas e 3 colunas-->
+    <table border="2">
+    <tr>
+        <td>Valor A</td>
+        <td>Valor B</td>
+        <td>C</td>
+    </tr>
+        
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+    </tr>
+    
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+    </tr>
+    </table>
+    
+    <br>
+    
+    <!--tabela com duas linhas e 5 colunas -->
+    <!--SEGURAR O OPTION E CLICAR EM LINHAS DIFRENTES, ELE SELECIONA VARIOS PONTEIROS e altera 
+    varios ao mesmo tempo-->
+    <table border="1">
+    <tr>
+        <td>coluna 1</td>
+        <td>coluna 2</td>
+        <td>coluna 3</td>
+        <td>coluna 4</td>
+        <td>coluna 5</td>
+    </tr>
+    <tr>
+        <td>coluna 1</td>
+        <td>coluna 2</td>
+        <td>coluna 3</td>
+        <td>coluna 4</td>
+        <td>coluna 5</td>
+    </tr>
+    </table>
+    
+    <!-- th  define coluna do cabecalho da tabela
+            TH = TITULO
+        ID NOME   TEL
+        1  Filipe 8899
+    
+    -->
+    <br>
+    
+    <table border="1" style="width: 100%">
+    <tr>
+        <th>ID</th>
+        <th>NOME</th>
+        <th>TELEFONE</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Lorena</td>
+        <td>8899</td>
+    </tr>
+    </table>
+    
+    <br>
+    <br>
+    
+    <table border="1" style="width: 100%">
+    <tr>
+        <th>ID</th>
+        <th>NOME DA OPORTUNIDADE</th>
+        <th>VALOR</th>
+    </tr>
+    <tr>
+     <td>1</td>
+     <td style="text-align: center;">Atlanta</td>
+     <td>250.00</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td style="text-align: center;">Caramilows</td>
+        <td>250.00</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td style="text-align: center;">OPPPPPPPPPPPP</td>
+        <td>250.00</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td style="text-align: center;">Apotrrefdfvdvdv</td>
+        <td>250.00</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td style="text-align: center;">Caramilando</td>
+        <td>250.00</td>
+    </tr>
+    </table>
+    
+    <h2>Tabela Exemplo</h2>
+    <table border="1" style="width: 50%;">
+    <tr>
+        <th>ID</th>
+        <th>NOME</th>
+        <th>PHONE</th>
+    </tr>
+    </table>
+    
+    <!--Colspan = mesclar coluna   Rowspan = mesclar as linhas -->
+    <table border="1">
+    <tr>
+        <td colspan="3">Teste 1</td> <!--Pega o espaco de 3 colunas-->
+        <td>Teste 1</td>
+        <td>Teste 1</td>
+    </tr>
+    <tr>
+        <td rowspan = "2">Teste 2</td>
+        <td>Teste 2</td>
+        <td>Teste 2</td>
+    </tr>
+    <tr>
+        <td>teste 3</td>
+        <td>Teste 3</td>
+        <td>Teste 3</td>
+    </tr>
+    </table>
+    
+</body>
+</html>
