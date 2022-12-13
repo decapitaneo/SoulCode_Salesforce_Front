@@ -25,7 +25,30 @@
     font-size: 36px;
   }
   
+  table td {
+    text-align: center;
+  }
+  
   .checked {
     color: orange;
   }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  
+  p {
+    font-size: 24px;
+    text-align: center;
+  
+  }
+  
+  h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
   

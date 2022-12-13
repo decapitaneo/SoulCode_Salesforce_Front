@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+   <h3>Meu primeiro Form</h3> 
+   <!--
+    formluario
+        tem tag de abertura e fechamento
+        <form action=""></form>
+            possui dois atributos principais
+            method -> como esses dados vao ser repassados GET e POST
+                    GET -> metodo de envio onde os dados sao repassados via URL
+                    POST -> os dados sao passados de forma oculta                    
+            action -> como esses dados vao ser enviados
+            <form action="" method="POST"></form>
+  -->
+  <form action="">
+    <!-- Todas as informacoes que precisam ser enviadas fica aqui dentro 
+    ..atraves de inputs, selects....-->
+    <!-- Input, estrutura de campo onde os dados serao colocados(entrada de dados)
+    type: text, email, date, number, password, submit 
+        <input type="text" name="" id="">
+    -->
+    <label for="nome">Nome: </label> <br><!--for relacionado com a ID-->
+    <input type="text" name="nome" id="nome"/> <!--type="text"-->
+    <br>
+    <label for="idade">Idade: </label><br>
+    <input type="number" id="idade" name="idade"/>
+    <br>
+    <label for="dataNasc">Data de Nascimento: </label><br>
+    <input type="date" name="dataNasc" id="dataNasc"/>
+    <br>
+    <label for="email">Email:</label> <br>
+    <input type="email" name="email" id="email">
+    <br>
+    <label for="senha">Password: </label><br>
+    <input type="password" name="senha" id="senha">
+    <br>
+    <input type="submit" value="Enviar"/> <!--value = nome que aparece p usuario-->
+    <button>Clica aqui</button>
+  </form>
+</body>
+</html>
