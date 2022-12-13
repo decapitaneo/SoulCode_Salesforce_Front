@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Meu primeiro Form</h3>
+    <!-- 
+      Formulario 
+      <form></form> 
+      possui dois atributos principais
+        method -> como esses dados vão ser repassados. GET e POST.
+          GET -> onde os dados são repassados via URL.
+          POST -> os dados são passados de forma oculta.
+        action -> para onde esses dados vão ser enviados?
+         <form action="" method="post">
+         </form>
+     -->
+    <form>
+      <!-- Todas as informações que precisam ser enviadas fica aqui dentro.. através de inputs, selects, .....
+      -->
+      
+      <!-- Input, estrutura de campo onde os dados serão colocados (entrada de dados) type: text, email, date, number, password, submit 
+      
+      Ex: <input type="" id="" name="" />
+      label, o campo desejado
+      -->
+  
+      <label for="nome">Nome: </label><br>
+      <input type="text" id="nome" name="nome" />
+      <br>
+  
+      <label for="idade">Idade: </label><br>
+      <input type="number" id="idade" name="idade">
+      <br>
+  
+      <label for="dataNasc">Data de Nascimento: </label><br>
+      <input type="date" id="dataNasc" name="dataNasc">
+      <br>
+  
+      <label for="senha">Senha: </label><br>
+      <input type="password" id="senha" name="senha" /><br>
+  
+      <label for="email">Email: </label><br>
+      <input type="email" id="email" name="email" /><br><br>
+  
+      <input type="submit" value="Me clica" />
+      <!-- <button>Clica Aqui</button> -->
+    </form>
+</body>
+</html>

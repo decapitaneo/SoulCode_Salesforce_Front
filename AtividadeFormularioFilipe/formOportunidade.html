@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidade</title>
+</head>
+<body>
+    <form action="">
+        <p>Particular</p>
+        <input type="checkbox" name="particular" value="true">
+        <br><br>
+        
+        <label for="nome">Nome da oportunidade</label><br>
+        <input type="text" id="nome" name="nome" required/>
+        <br><br>
+        
+        <label for="valor">Valor</label><br>
+        <input type="number" id="valor" name="valor" required/>
+        <br><br>
+        
+        <label for="dataF">Data de fechamento</label><br>
+        <input type="number" id="dataF" name="dataF" required/>
+        <br><br>
+        
+        <label for="nextStep">Next Step</label><br>
+        <input type="text" id="nextStep" name="nextStep"/>
+        <br><br>
+        
+        <label for="fase">Fase: </label><br>
+        <select name="fase" id="fase" required>
+            <option value="nenhum">--Nenhum--</option>
+            <option value="prospecting">Prospecting</option>
+            <option value="qualification">Qualification</option>
+            <option value="analysis">Needs Analysis</option>
+            <option value="proposition">Value Proposition</option>
+            <option value="makers">Id. Decision Makers</option>
+            <option value="perception">Perception Analysis</option>
+            <option value="proposalPriceQuote">Proposal/Price Quote</option>
+            <option value="negotiation">Negotiation/Review</option>
+            <option value="prospecting">Prospecting</option>
+            <option value="won">Closed Won</option>
+            <option value="lost">Closed Lost</option>
+        </select>
+        <br><br>
+        
+        
+        <input type="submit" value="Salvar"> <br><br>
+    </form>
+    
+</body>
+</html>

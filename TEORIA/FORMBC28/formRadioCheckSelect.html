@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 
+    Criar um formulário contendo os campos: nome, sobrenome, email, data de nascimento, cpf e botão de envio
+   -->
+   <form>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" /><br><br>
+
+    <label for="sobrenome">Sobrenome: </label><br>
+    <input type="text" id="sobrenome" name="sobrenome" /><br><br>
+
+    <!-- 
+      RADIO E CHECKBOX - > o name do conjunto de escolhas devem ser iguais -> agrupar
+      Radio -> o TV   o DVD    o Pao
+      Checkbox -> quadrado marca e desmarca
+      tanto radio como checkbox, necessitam de um atributo value para enviar o valor
+    -->
+    <p>Selecione o conteúdo que você mais AMOU no Bootcamp:</p>
+
+    <input type="radio" name="conteudos" value="1">Apex
+    <input type="radio" name="conteudos" value="2">SOQL
+    <input type="radio" name="conteudos" value="3">Trigger
+    <input type="radio" name="conteudos" value="4">Classe Teste
+
+    <p>Selecione o conteúdo que você mais ODIOU no Bootcamp:</p>
+
+    <input type="radio" name="conteudos2" value="1">Apex
+    <input type="radio" name="conteudos2" value="2">SOQL
+    <input type="radio" name="conteudos2" value="3">Trigger
+    <input type="radio" name="conteudos2" value="4">Classe Teste
+
+
+    <p>Marque as opções de seu interesse: </p>
+    <input type="checkbox" name="interesses" value="musica" />Musica
+    <input type="checkbox" name="interesses" value="game" />Game
+    <input type="checkbox" name="interesses" value="comida" />Comida
+    <input type="checkbox" name="interesses" value="serie" />Serie
+    <input type="checkbox" name="interesses" value="filme" />Filmes
+
+
+    <p>Entregavel? </p>
+    <input type="checkbox" name="entregavel" value="true" />
+    <br><br>
+
+    <label for="mensagem">Digite a Mensagem: </label><br>
+    <textarea id="mensagem" name="mensagem" rows="6" cols="25"></textarea><br><br>
+
+    <label for="rating">Classificação</label>
+    <select name="rating" id="rating">
+      <option value="frio">Cold</option>
+      <option value="quente">Hot</option>
+      <option value="morno">Warm</option>
+    </select>
+
+    <br>
+    <input type="submit" value="Enviar">
+   </form>
+</body>
+</html>

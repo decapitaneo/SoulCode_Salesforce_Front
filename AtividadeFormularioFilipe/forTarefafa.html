@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <form action="">
+        <label for="assunto">Assunto</label>
+        <input type="text" name="assunto" id="assunto" required>
+        <br><br>
+        <label for="dataVen">Data de Vencimento </label><br>
+        <input type="date" name="dataVen" id="dataVen"/> <br>
+        <br>
+        <label for="prioridade">Prioridade </label><br>
+        <select name="prioridade" id="prioridade" required>
+            <option value="nenhum">--Nenhum--</option>
+            <option value="high">High</option>
+            <option value="normal">Normal</option>
+            <option value="low">Low</option>
+        </select>
+        <br>
+        <label for="status">Status </label><br>
+        <select name="status" id="status" required>
+            <option value="nenhum">--Nenhum--</option>
+            <option value="notStarted">Not Started</option>
+            <option value="inProgress">In Progress</option>
+            <option value="completed">Completed</option>
+            <option value="waiting">Waiting on someone else</option>
+            <option value="deferred">Deferred</option>
+        </select> <br><br>
+        <div>
+            <input type="submit" value="Salvar e criar"> 
+            <input type="submit" value="Cancelar"> 
+            <input type="submit" value="Salvar">
+        </div> 
+            
+    </form>
+        
+</body>
+</html>

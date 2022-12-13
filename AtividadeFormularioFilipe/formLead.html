@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Lead</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome Completo </label> <br>       
+        <br>
+        <label for="tratamento">Tratamento: </label><br>
+        <select name="tratamento" id="tratamento">
+            <option value="nenhum">--Nenhum--</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="banking">Banking</option>
+        </select>
+        <br><br>
+        <label for="nome">Primeiro nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Primeiro nome"/>
+        <br><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome"/>
+        <br><br>
+        <label for="empresa">Empresa:</label><br>
+        <input type="text" id="empresa" name="empresa" required/>
+        <br><br>
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo"/>
+        <br><br> 
+        <label for="origem">Origem do lead </label><br>
+        <select name="origem" id="origem">
+            <option value="nenhum">--Nenhum--</option>
+            <option value="web">Web</option>
+            <option value="inquiry">Phone Inquiry</option>
+            <option value="referral">Partner Referral</option>
+            <option value="list">Purchased List</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        <label for="status">Status do lead </label><br>
+        <select name="status" id="status" required>
+            <option value="nenhum">--Nenhum--</option>
+            <option value="web">Open - Not Contacted</option>
+            <option value="inquiry">Working - Contacted</option>
+            <option value="referral">Closed - Converted</option>
+            <option value="list">Closed - Not Converted</option>
+        </select>
+        <br><br>
+        <label for="mensagem">Descrição</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="2"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar"> <br><br>
+    </form>
+    
+</body>
+</html>
