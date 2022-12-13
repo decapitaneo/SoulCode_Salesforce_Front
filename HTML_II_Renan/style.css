@@ -51,4 +51,18 @@
     font-size: 30px;
   }
   
+  div {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  div a {
+    color: red;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 25px;
+    text-decoration: none;
+    
+  }
+  
   
