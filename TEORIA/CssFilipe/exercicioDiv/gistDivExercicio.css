@@ -1,0 +1,29 @@
+*{
+    margin: 0 auto;
+  }
+  
+  .list {
+    background-color: blueviolet;
+    width: 100%;
+    float: left;
+  }
+  
+  /* 
+    manipular os elementos da classe?
+    .nomeClasse elemento {}
+  */
+  
+  .list ul{
+    list-style: none;
+  }
+  
+  .list ul li{
+    padding: 10px;
+    margin: 0 5px;
+    float: left;
+  }
+  
+  .list ul li:hover{
+    background-color: #e2e6e2;
+    color: cadetblue;
+  }

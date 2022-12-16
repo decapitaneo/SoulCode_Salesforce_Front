@@ -1,0 +1,148 @@
+/* Fonts Variantes
+font-family
+font-size
+font-style
+font-variant
+font-weight
+text-align
+text-decoration
+*/
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ex1{
+    font-size: larger;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-align: right; /*center, justify,left,right,*/
+}
+
+.ex2 {
+    font-size: xx-large;
+    font-style: oblique;
+    font-variant: small-caps; /*vai dar um destaque maior para a letra Maiscula
+                                Transforma todoas em letra maiscula, mas a 
+                                maiscula orginal fica maior*/
+    font-weight: bold;
+}
+
+.ex2{
+    text-align: left;
+    text-decoration: overline;
+
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* 
+  Manipulando Fontes
+  font-family - determina o tipo de fonte desejada.
+    geralmente vem em 3 tipos escolhidos, em caso da falta de um ele vai para o outro.
+  
+  font-size - determina o tamanho da fonte
+  font-style - determina o estilo da fonte, italic, normal, oblique
+  font-variant - determina se fica normal ou small-caps
+  
+  font-weight - determina a espessura da fonte, bold, bolder, lighter, 100, 200, .... 900
+  text-align - alinhamento do texto (left, right, center, justify)
+  text-decoration
+*/
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    text-align: right;
+  }
+  
+  .ex1{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .ex2{
+    font-size: xx-large;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 900;
+    text-align: left;
+    text-decoration: overline;
+  }
+  
+  a{
+    text-decoration: none;
+    color: blueviolet;
+  }
+  
+  
+  /*
+    Criar duas classes css
+    a classe 1 deve ter
+    cor de fundo preto
+    cor de texto branco
+    tamanho da fonte 15px
+    espessura da fonte bold
+    decoração do texto linha acima
+    a classe 2 deve ter
+    variação small-caps
+    tamanho da fonte xx-larger
+    uma font-family qualquer
+    alinhamento do texto centralizado
+    no html utilize as duas classes em paragrafos
+  */
+  
+  .banana {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: overline;
+  }
+  
+  .maca {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;  
+    text-align: center;
+    font-variant: small-caps;
+  }
+  
+  /*
+  Criar duas classes css
+  a classe 1 deve ter
+  cor de fundo preto
+  cor de texto branco
+  tamanho da fonte 15px
+  espessura da fonte bold
+  decoração do texto linha acima
+*/
+.classe1{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+/*
+  a classe 2 deve ter
+  variação small-caps
+  tamanho da fonte xx-large
+  uma font-family qualquer
+  alinhamento do texto centralizado
+*/
+.classe2{
+  font-variant: small-caps;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}

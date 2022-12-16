@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Início</title>
+    <!--
+        Prioridade de execução 
+        1. Estilo inline – as regras definidas junto com seletor sobrepõem qualquer regra conflitante.
+        2. Estilo interno – as regras incorporadas sobrepõem às regras externas.
+        3. Estilo externos – as regras importadas de um documento CSS separado possuem a menor
+    -->
+  <!-- 
+    CSS INTERNO
+    seletor - elemento do HTML, classe, id. p, h1, #nav (id), .content (classe)
+    elemento html como seletor, você quer dizer, TODOS OS ELEMENTOS DEVEM TER ESSA CONFIG
+    seletor {
+      propriedade1: valor;
+      propriedade2: valor;
+    }
+   -->
+   
+   <style>
+    p {
+      color:aquamarine;
+      background-color:black ;
+    }
+
+    h1 {
+      color: brown;
+      background-color: azure;
+    }
+    /* classe no css, define um conjunto de props através de uma classe - .nomeClasse */
+    .dark{
+      color: aliceblue;
+      background-color: black;
+    }
+
+    .light{
+      color:black;
+      background-color: azure;
+    }
+   </style>
+</head>
+<body>
+  <h1>CSS - Folha de Estilo em Cascata</h1>
+  <p>Utilizado para construir o design,estilo de uma página</p>
+  <p>Trabalha em cima da estrutura do HTML, para realizar modificações de estilo.</p>
+  <p>Criar configurações multifuncionais - para mais de uma página</p>
+
+  <!-- 
+    USO DO CSS
+    INLINE -> como um atributo style="" na tag. Apenas na tag que ele se encontra.
+    INTERNO -> como uma tag <style>, que carrega as configs dos elementos, geralmente na head. Apenas no arquivo que ele se encontra.
+    EXTERNO -> é um arquivo especifico para css, com extensão .css, e nele possui as configs dos elementos. Pode ser usado em vários arquivos HTML
+   -->
+
+   <!-- 
+    PROPRIEDADES DO CSS
+    NOME: VALOR;
+    color: define cor do texto
+    background-color: define cor de fundo
+    ingles
+    rgb
+    HEXADECIMAL: 0123456789ABCDEF
+    -->
+   <h2 style="color: firebrick;">CSS Inline</h2>
+   <p style="color: blue;">Exemplo de uso na tag</p>
+   <p style="color: #156ABC; background-color: beige;">Outro exemplo de uso na tag</p>
+
+   <p>Outro paragrafo</p>
+
+   <h3 class="dark">Classe de CSS</h3>
+   <p class="dark">Usando classe Dark</p>
+   <p class="light">Usando classe Light</p>
+</body>
+</html>

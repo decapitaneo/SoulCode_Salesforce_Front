@@ -1,0 +1,39 @@
+.div {
+    /*width = largura   px,%,vh*/
+    width: 250px;
+    /*height = altura*/
+    height: 250px;
+    background-color: coral;
+    /*float: left/right ==>uma abaixo da outra alinhada para a direita*/
+    float: right; 
+}
+
+* {
+    
+    margin: 0 auto;
+    padding: 0;
+}
+
+.classe0 {
+    background-color: yellowgreen;
+    width: 100%;
+    float: left;
+}
+/*VAI OCUPAR 100% DA LARGURA*/
+
+.classe1{
+    background-color: cornflowerblue;
+    width: 49%;
+    float: left;
+    border: 1px solid black;
+}
+.classe2{
+    background-color: coral;
+    width: 49%;
+    float: left;
+}
+
+/*  USANDO O FLOAT NA CLASSE1 E NA CLASSE2 ELE VAI DEIXAR AS DIVS LADO A LADO IMPEDINDO 
+    A QUEBRA QUANDO EU DIMINUIR A TELA
+*/
+

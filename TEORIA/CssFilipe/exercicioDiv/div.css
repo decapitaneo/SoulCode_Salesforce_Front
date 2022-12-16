@@ -1,0 +1,42 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    <!-- 
+    crie uma div com classe chamada box
+    uma img
+    e um h3
+
+    no css, aplicar as seguintes configs
+    na classe box:
+      largura de 50%
+      cor de fundo #e2e6e2
+      float direita
+
+    a imagem na box
+      largura de 80%
+
+    o h3 na box deve ter 
+      color de texto cadetblue
+      font size de 15pt
+      font family qualquer
+   -->
+*/
+.box {
+    width: 50%;
+    background-color: #e2e6e2;
+    float: right;  
+}
+
+img {
+    width: 80%;
+}
+
+h3 {
+    color: cadetblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

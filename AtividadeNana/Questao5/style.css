@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 48px;
+}
+
+h2 {
+    padding-bottom: 25px;
+
+}
+.apresentacao img {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.apresentacao h2 {
+    width: 70%;
+    height: 100px;
+    float: right;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.apresentacao p {
+    align-items: center;
+}

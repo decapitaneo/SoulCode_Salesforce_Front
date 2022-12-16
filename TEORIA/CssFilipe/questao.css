@@ -1,0 +1,44 @@
+/*
+Criar um arquivo .css com as seguintes configs
+
+  para todo paragrafo
+    cor de texto #123321
+    cor de fundo black
+  para todo h2
+    cor de texto #456ABC
+    cor de fundo pink
+  classe com nome tudoAzul
+    cor de texto blue
+    cor de fundo cyan
+  classe com nome tudoRed
+    cor de texto red
+    cor de fundo brown
+*/
+body {
+    border: solid green 10px;
+}
+.teste {
+    padding: 25px;
+}
+
+p {
+    color:  #123321;
+    background-color: black;
+    font-size: 36px;
+}
+
+h2 {
+    color: #456ABC;
+    background-color: pink;
+    font-size: 48px;
+}
+
+.tudoAzul {
+    color: blue;
+    background-color: cyan;
+}
+
+.tudoRed {
+    color: red;
+    background-color: brown;
+}
