@@ -2,12 +2,17 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    padding: 10px;
+    margin-right: 10px;
 }
 
 h1 {
     text-align: center;
     padding-top: 20px;
-    font-size: 48px;
+    font-size: 52px;
 }
 
 h2 {
@@ -16,17 +21,64 @@ h2 {
 }
 .apresentacao img {
     width: 20%;
-    height: 200px;
-    float: left;
+    height: 100%; 
 }
-.apresentacao h2 {
-    width: 70%;
-    height: 100px;
-    float: right;
-    font-size: 36px;
-    margin-bottom: 25px;
+.apresentacao  {
+    width: 100%;
+    height: 180px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.curso {
+    padding-top: 25px;
 }
 
-.apresentacao p {
-    align-items: center;
+.curso p {
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+
+h2 {
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 48px; 
+    color: red;
+}
+
+.img2 {
+    width: 100%;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px;
+}
+
+ul {
+    padding: 40px;
+    color: blue;
+    font-size: 24px;
+}
+
+ul li {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.img3 {
+    object-fit: cover;
+    width: 100%;
+    height: 750px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 10px;
+    font-weight: bold ;
 }
